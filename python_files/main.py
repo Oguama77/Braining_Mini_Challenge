@@ -302,3 +302,26 @@ plt.title('Receiver Operating Characteristic (ROC) Curve\nAccuracy: {:.2f}%'.for
     accuracy * 100))
 plt.legend(loc="lower right")
 plt.show()
+
+"""#### Feature Importance"""
+
+# Get model coefficient for each feature
+feature_names = X_under.columns
+coefficients = lr.coef_[0]
+
+coef_df = pd.DataFrame({
+    "Feature": feature_names,
+    "Coefficient": coefficients
+}).sort_values(by="Coefficient", ascending=False)
+print(coef_df)
+
+# Visualize model coefficients
+coef_df_sorted = coef_df.sort_values(by="Coefficient", ascending=True)
+plt.figure(figsize=(8,6))
+plt.barh(coef_df_sorted["Feature"], coef_df_sorted["Coefficient"], color="indianred")
+plt.axvline(x=0, color="black", linewidth=1)  # Reference line at 0
+plt.xlabel("Coefficient Value")
+plt.title("Logistic Regression Model Coefficients")
+plt.tight_layout()
+plt.show()
+
