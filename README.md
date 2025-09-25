@@ -3,7 +3,7 @@
   <img src="report/stroke.jpg" alt="Stroke Illustration" width="200"/>
 </p>
 
-### This project tackles the Braining Mini-Challenge, which aims to predict the risk of stroke based on key lifestyle and health variables. By exploring patterns in age, BMI, sleep, smoking, and exercise, the project demonstrates the application of Exploratory Data Analysis (EDA), statistical methods, and machine learning models in a health prediction context.
+#### This project tackles the Braining Mini-Challenge, which aims to predict the risk of stroke based on key lifestyle and health variables. By exploring patterns in age, BMI, sleep, smoking, and exercise, the project demonstrates the application of Exploratory Data Analysis (EDA), statistical methods, and machine learning models in a health prediction context.
 
 ### Project Structure
 
