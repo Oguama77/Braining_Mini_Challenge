@@ -4,6 +4,7 @@ This project tackles the Braining Mini-Challenge, which aims to predict the risk
 
 ### Project Structure
 
+```text
 Braining-Mini-Challenge-Stroke-Risk
 │
 ├── data                -> Dataset
