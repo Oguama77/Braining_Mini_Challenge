@@ -1,6 +1,6 @@
 ## Braining Mini-Challenge: Predicting Stroke Risk Based on Lifestyle Habits
 <p align="center">
-  <img src="report/stroke.jpg" alt="Stroke Illustration" width="200"/>
+  <img src="plots/stroke.jpg" alt="Stroke Illustration" width="200"/>
 </p>
 
 #### This project tackles the Braining Mini-Challenge, which aims to predict the risk of stroke based on key lifestyle and health variables. By exploring patterns in age, BMI, sleep, smoking, and exercise, the project demonstrates the application of Exploratory Data Analysis (EDA), statistical methods, and machine learning models in a health prediction context.
@@ -15,13 +15,13 @@ Braining-Mini-Challenge-Stroke-Risk
 │
 ├── notebooks           -> Jupyter notebooks for exploration
 │   ├── eda.ipynb
-│   ├── model.ipynb
-│   └── tests.ipynb
+│   ├── main.ipynb
+│   └── experiments.ipynb
 │
 ├── python_files        -> Python scripts for reproducibility
 │   ├── eda.py
-│   ├── model.py
-│   └── tests.py
+│   ├── main.py
+│   └── experiments.py
 │
 ├── report              -> Final project report
 │   └── report.pdf
