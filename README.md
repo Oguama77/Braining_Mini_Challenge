@@ -24,7 +24,7 @@ Braining-Mini-Challenge-Stroke-Risk
 │   └── report.pdf
 │
 └── README.md           -> Project documentation
-
+```
 
 ### Workflow
 
@@ -33,6 +33,8 @@ Exploratory Data Analysis -> Feature Engineering -> Model Training and Evaluatio
 ### Installation
 Clone the repository and install dependencies:
 
+```text
 git clone https://github.com/Oguama77/Braining_Mini_Challenge.git
 cd Braining-Mini-Challenge-Stroke-Risk
 pip install -r requirements.txt
+```
