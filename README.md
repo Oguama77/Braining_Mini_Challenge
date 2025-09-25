@@ -1,5 +1,7 @@
 ## Braining Mini-Challenge: Predicting Stroke Risk Based on Lifestyle Habits
 
+<img src="report/stroke.jpg" alt="Stroke Risk Workflow" width="500"/>
+
 This project tackles the Braining Mini-Challenge, which aims to predict the risk of stroke based on key lifestyle and health variables. By exploring patterns in age, BMI, sleep, smoking, and exercise, the project demonstrates the application of Exploratory Data Analysis (EDA), statistical methods, and machine learning models in a health prediction context.
 
 ### Project Structure
@@ -32,7 +34,6 @@ Exploratory Data Analysis -> Feature Engineering -> Model Training and Evaluatio
 
 ### Installation
 Clone the repository and install dependencies:
-
 ```text
 git clone https://github.com/Oguama77/Braining_Mini_Challenge.git
 cd Braining-Mini-Challenge-Stroke-Risk
