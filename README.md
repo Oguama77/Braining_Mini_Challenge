@@ -27,6 +27,9 @@ Braining-Mini-Challenge-Stroke-Risk
 │   └── report.pdf
 │
 └── README.md           -> Project documentation
+|
+|
+|__ requirements.txt
 ```
 
 ### Workflow
