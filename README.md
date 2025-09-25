@@ -31,7 +31,7 @@ Braining-Mini-Challenge-Stroke-Risk
 
 ### Workflow
 
-Exploratory Data Analysis -> Feature Engineering -> Model Training and Evaluation -> Documentation
+[Exploratory Data Analysis](notebooks/eda.ipynb) -> [Feature Engineering](notebooks/main.ipynb) -> [Model Training and Evaluation](notebooks/main.ipynb) -> [Documentation](report/report.pdf)
 
 ### Installation
 Clone the repository and install dependencies:
